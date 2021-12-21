@@ -1,0 +1,11 @@
+@mixin button_hover
+	&:hover
+		background-image: none
+		background-color: $color_red
+		color: #000000
+@mixin plus_hover
+	&::before,&::after
+		transform: rotate(360deg)
+		background-color: $color_red
+
+	
